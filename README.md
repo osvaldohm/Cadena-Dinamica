@@ -9,28 +9,23 @@ Programa para leer cadenas en C de forma dinámica, de tal fotrma que no es nece
 ### Instrucciones de uso:
 
 1. Se incluye el archivo de cabecera
-~~~
-:::c
+~~~c
 #include "Cadena.h"
 ~~~
 2. se declara una variable del tipo *String*
-~~~
-:::c
+~~~c
 String cadena;
 ~~~
 3. Se implementa la funcion para leer la cadena
-~~~
-:::c
+~~~c
 leerCadena(&String);
 ~~~
 4. Se imprime en pantalla. Por ejemplo con un *scanf()*
-~~~
-:::c
+~~~c
 printf("Cadena: \n",cadena);
 ~~~
 ###Ejemplo:
-~~~
-:::c
+~~~c
 int main(int argc, char const *argv[]) {
     char opc;
     do{
