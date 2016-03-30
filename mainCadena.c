@@ -11,7 +11,7 @@ int main(int argc, char const *argv[]) {
 	char opc;
 	do{
 		String buffer;
-	    printf("\nngrese cadena: ");
+	    printf("\nIngrese una cadena: ");
 	    leerCadena(&buffer);
 		printf("\nResultado: %s", buffer);
 	    printf("\nContinuar? (s/n):\t");
