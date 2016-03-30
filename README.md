@@ -13,7 +13,7 @@ Programa para leer cadenas en C de forma dinámica, de tal fotrma que no es nece
 #include "Cadena.h"
 ~~~
 #####2. se declara una variable del tipo *String*
-~~c
+~~~c
 String cadena;
 ~~~
 #####3. Se implementa la funcion para leer la cadena
