@@ -1,12 +1,14 @@
 /** 
 * Cabecera
 * Programa que permite la lectura de cadenas de forma dinamica, de tal manera que no es necesario 
-* incializar un tama�o fijo en un arreglo de caracteres.
+* incializar un tamaño fijo en un arreglo de caracteres.
 * @author Ramses Martinez Ortiz
 * @version 1.0.0 29/03/2016
 * Implementar utilizando "leerCadena(&buffer)"
 *
 */
+
+/** Agregar todo esto en tu aarchivo de cabecera */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,10 +24,14 @@ typedef char* String; /** Define el tipo de dato String como un puntero a variab
 */
 void leerCadena(String*);
 
+/**Hasta aca */
+
+
+/** Agregar todo esto en tu archivo.c donde esten tus metodos */
 
 void leerCadena(String *cadena){
     char c; /**Almacena el caracter leido */
-    int i; /** Contola el tamaño de la cadena */
+    int i; /** Contola el tamaÃ±o de la cadena */
     String auxiliar = NULL; /** Almacena la cadena antes de ser copiada a la direccion recibida */
 
     if((*cadena) !=NULL){
@@ -53,22 +59,4 @@ void leerCadena(String *cadena){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**Hasta aca */
