@@ -18,7 +18,7 @@ String cadena;
 ~~~
 #####3. Se implementa la funcion para leer la cadena
 ~~~c
-leerCadena(&String);
+leerCadena(&cadena);
 ~~~
 #####4. Se imprime en pantalla. Por ejemplo con un *scanf()*
 ~~~c
