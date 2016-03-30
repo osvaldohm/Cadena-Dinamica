@@ -8,19 +8,19 @@ Programa para leer cadenas en C de forma dinámica, de tal fotrma que no es nece
 
 ### Instrucciones de uso:
 
-####1. Se incluye el archivo de cabecera
+#####1. Se incluye el archivo de cabecera
 ~~~c
 #include "Cadena.h"
 ~~~
-####2. se declara una variable del tipo *String*
+#####2. se declara una variable del tipo *String*
 ~~c
 String cadena;
 ~~~
-####3. Se implementa la funcion para leer la cadena
+#####3. Se implementa la funcion para leer la cadena
 ~~~c
 leerCadena(&String);
 ~~~
-####4. Se imprime en pantalla. Por ejemplo con un *scanf()*
+#####4. Se imprime en pantalla. Por ejemplo con un *scanf()*
 ~~~c
 printf("Cadena: \n",cadena);
 ~~~
