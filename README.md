@@ -36,7 +36,6 @@ leerC(&buffer);
 printf("Cadena: \n",buffer);
 ~~~
 
-
 ###Ejemplo:
 ~~~c
 int main(int argc, char const *argv[]) {
