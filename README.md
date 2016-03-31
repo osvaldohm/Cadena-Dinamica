@@ -8,22 +8,36 @@ Programa para leer cadenas en C de forma dinámica, de tal fotrma que no es nece
 
 ### Instrucciones de uso:
 
-#####1. Se incluye el archivo de cabecera
+
+#####1. Incluir los archivos 
+Los archivos "leercad.h" y "leercad.a" se deberan incluir en la carpeta que contenga el programa principal
+
+###### ¡¡¡PASO IMPORTANTE!!! - Configurar DevC
+Incluir la biblioteca en la fase de enlazado.
+ - Acudimos a "Proyecto - opciones de proyecto" 
+ - Buscamos la pestaña "Argumentos para el programa" (También se puede encontrar como "Parámetro en versiones anteriores")
+ - En la columna de la derecha, correspondiente a "linker", pulsamos el botón "Agregar libreria u Objeto" 
+ - Añadimos el fichero "leercad.a"
+ - Ahora ya podremos ejecutar e código
+
+#####2. Se incluye el archivo de cabecera en nuestro programa
 ~~~c
-#include "Cadena.h"
+#include "leercad.h"
 ~~~
-#####2. se declara una variable del tipo *String*
+#####3. se declara una variable del tipo *String*
 ~~~c
-String cadena;
+String buffer;
 ~~~
-#####3. Se implementa la funcion para leer la cadena
+#####4. Se implementa la funcion para leer la cadena
 ~~~c
-leerCadena(&cadena);
+leerC(&buffer);
 ~~~
-#####4. Se imprime en pantalla. Por ejemplo con un *scanf()*
+#####5. Se imprime en pantalla. Por ejemplo con un *scanf()*
 ~~~c
-printf("Cadena: \n",cadena);
+printf("Cadena: \n",buffer);
 ~~~
+
+
 ###Ejemplo:
 ~~~c
 int main(int argc, char const *argv[]) {
