@@ -8,7 +8,6 @@ Programa para leer cadenas en C de forma dinámica, de tal fotrma que no es nece
 
 ### Instrucciones de uso:
 
-
 #####1. Incluir los archivos 
 Los archivos "leercad.h" y "leercad.a" se deberan incluir en la carpeta que contenga el programa principal
 
