@@ -3,7 +3,7 @@ Leer Cadena
 Programa para leer cadenas en C de forma dinámica, de tal fotrma que no es necesario inicializar el arreglo de caracteres con un tamaño en específico.
 
  - Desarrollado en DevC++ 5.9.2
- - Compilador: GCC 64 bits
+ - Compilador: GCC 32 4.9.2 32-bit Release
 
 
 ### Instrucciones de uso:
@@ -17,6 +17,7 @@ Incluir la biblioteca en la fase de enlazado.
  - Buscamos la pestaña "Argumentos para el programa" (También se puede encontrar como "Parámetro en versiones anteriores")
  - En la columna de la derecha, correspondiente a "linker", pulsamos el botón "Agregar libreria u Objeto" 
  - Añadimos el fichero "leercad.a"
+ - Para evitar conflictos de compilación se recomiendo (no es obligatorio) utilizar el compilador TDM-GCC 4.9.2 32-bit Release
  - Ahora ya podremos ejecutar e código
 
 #####2. Se incluye el archivo de cabecera en nuestro programa
